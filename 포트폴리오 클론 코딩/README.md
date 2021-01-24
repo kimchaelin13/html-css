@@ -14,7 +14,7 @@
 
  `text-align: center` & ` line-height: 100px` : 텍스트 가운데정렬 가능
 
-
+`absolute`: 원래 있던 자리에서 벗어나서 위치를 바꾸는 것이 포지션 앱솔루트다. relative는 움직이긴 움직이지만 원래 있던 자리를 차지하고 유지하는 상태에서 움직임
 
 ### margin
 
