@@ -1,0 +1,82 @@
+@import "base/base";
+@import "abstracts/variables";
+
+@import "base/type";
+
+
+
+#navbar {
+    position: fixed;
+    color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+    z-index: 1;
+    transition: all $animation-duration ease-in-out;
+    background-color: transparent;
+
+    .navbar__logo {
+        font-size: $font-medium;
+        font-weight: $weight-semi-bold;
+    }
+
+    .navbar__menu {
+        display: flex;
+
+        &__item {
+            padding: 8px 12px;
+            margin: 0 4px;
+            cursor: pointer;
+            border-radius: $size-border-radius;
+        }
+    }
+
+    //추후수정
+    .navbar__toggle-btn {
+        display: none;
+    }
+}
+
+
+// Home
+#home {
+    background: url('../imgs/home-background.png') center/cover no-repeat;
+    padding: 40px;
+    padding-top: 120px;
+    text-align: center;
+
+    .home__container {
+       
+        .home__avatar {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 2px solid $color-white;
+        }
+
+        .home__title,.home__description {
+            color: $color-white;
+        }
+
+        .home__contact {
+            color: $color-white;
+            font-size: $font-regular;
+            font-weight: $weight-bold;
+            margin: 24px;
+            padding: 8px 12px;
+            border: 2px solid $color-white;
+            border-radius: $size-border-radius;
+
+            &:hover {
+                background-color: $color-orange;
+            }
+        }
+    }
+}
+
+
+
+
+

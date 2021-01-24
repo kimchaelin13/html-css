@@ -1,0 +1,136 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Color */
+/* Font size */
+/* Font weight */
+/* Size */
+/* Annimation */
+/* Typography */
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+  margin: 16px 0px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #000000;
+  margin: 8px 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 18px;
+  color: #000000;
+  margin: 8px 0;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 18px;
+  color: #000000;
+  margin: 4px 0;
+}
+
+#navbar {
+  position: fixed;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 16px;
+  z-index: 1;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  background-color: transparent;
+}
+
+#navbar .navbar__logo {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#navbar .navbar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navbar .navbar__menu__item {
+  padding: 8px 12px;
+  margin: 0 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#navbar .navbar__toggle-btn {
+  display: none;
+}
+
+#home {
+  background: url("../imgs/home-background.png") center/cover no-repeat;
+  padding: 40px;
+  padding-top: 120px;
+  text-align: center;
+}
+
+#home .home__container .home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+#home .home__container .home__title, #home .home__container .home__description {
+  color: #ffffff;
+}
+
+#home .home__container .home__contact {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+}
+
+#home .home__container .home__contact:hover {
+  background-color: #feb546;
+}
+/*# sourceMappingURL=index.css.map */
